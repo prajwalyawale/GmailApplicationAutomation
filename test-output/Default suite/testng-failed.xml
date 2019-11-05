@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qaTest.Logintestcases.GmailTestCase">
+        <methods>
+          <include name="verifySocialMailBox"/>
+          <include name="verifySearchMailBox"/>
+          <include name="tearDown"/>
+          <include name="VerifyClickSendBtn"/>
+          <include name="setUp"/>
+          <include name="verifyStar"/>
+          <include name="VerifyRecipient"/>
+        </methods>
+      </class> <!-- com.qaTest.Logintestcases.GmailTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

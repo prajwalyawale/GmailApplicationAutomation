@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.Test.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qaTest.Logintestcases.GmailTestCase">
+        <methods>
+          <include name="openEmailClick"/>
+          <include name="ClickOnCompose"/>
+          <include name="setUp"/>
+          <include name="MarkEmailStar"/>
+          <include name="VerifyRecipient"/>
+          <include name="VerifyEmail"/>
+          <include name="VerifySubject"/>
+          <include name="VerifyTypeLabel"/>
+          <include name="VerifyNext"/>
+          <include name="VerifyEmailcontents"/>
+          <include name="VerifyLabel"/>
+          <include name="verifySocialMailBox"/>
+          <include name="VerifyDiscp"/>
+          <include name="tearDown"/>
+          <include name="VerifyPassword"/>
+          <include name="VerifyClickSendBtn"/>
+          <include name="VerifyNext2"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.qaTest.Logintestcases.GmailTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
